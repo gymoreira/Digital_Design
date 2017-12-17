@@ -1,0 +1,19 @@
+|PBL01CD
+Luz_Garagem <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+Porta_Fundo => inst19.IN0
+Porta_Frente => inst2.IN0
+Porta_Frente => inst18.IN0
+Presenca_Externa => P_Toque.IN1
+Presenca_Externa => Turno.IN0
+Presenca_Interna => P_Toque.IN2
+Presenca_Interna => inst13.IN0
+Chaveamento_Alarme => Central_Alarme.IN1
+Dia_Noite => Turno.IN1
+Dia_Noite => Luz_Jardim.DATAIN
+Luz_Jardim <= Dia_Noite.DB_MAX_OUTPUT_PORT_TYPE
+Alarme <= Central_Alarme.DB_MAX_OUTPUT_PORT_TYPE
+Estado_Ar <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+Temperatura => inst18.IN2
+Luz_Comodo <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+
+

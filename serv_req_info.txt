@@ -1,0 +1,39 @@
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x77b0a225: ntdll + 0x4a225 (RtlEnterCriticalSection + 0x15)
+	0x703e1be6: ig75icd32 + 0x441be6 (DrvValidateVersion + 0x1356)
+	0x703e1686: ig75icd32 + 0x441686 (DrvValidateVersion + 0xdf6)
+	0x76d42752: USER32 + 0x62752 (GetDC + 0x2c32)
+	0x76d43477: USER32 + 0x63477 (GetDC + 0x3957)
+	0x76cf8a9f: USER32 + 0x18a9f (IsWindow + 0x24f)
+	0x77b30bac: ntdll + 0x70bac (KiUserCallbackDispatcher + 0x4c)
+	0x102d8714: tk84 + 0xb8714 (_Tk_DestroyWindow + 0x394)
+	0x102d9c42: tk84 + 0xb9c42 (_Tk_GetNumMainWindows + 0x112)
+	0x102d6600: tk84 + 0xb6600 (_TkFinalize + 0x70)
+	0x1022582f: tk84 + 0x582f (_DllMain@12 + 0x5f)
+	0x102da8d6: tk84 + 0xba8d6 (_DllMainCRTStartup + 0x70)
+	0x77b2e725: ntdll + 0x6e725 (WinSqmSetDWORD64 + 0x25)
+	0x77afcbee: ntdll + 0x3cbee (RtlDeactivateActivationContextUnsafeFast + 0x16e)
+	0x77af792b: ntdll + 0x3792b (LdrShutdownProcess + 0xfb)
+	0x77b279cb: ntdll + 0x679cb (RtlExitUserProcess + 0xbb)
+	0x76ed3bd2: KERNEL32 + 0x13bd2 (ExitProcess + 0x12)
+	0x715821cb: MSVCR90 + 0x221cb (_amsg_exit + 0x74)
+	0x71582410: MSVCR90 + 0x22410 (_get_pgmptr + 0x195)
+	0x71582465: MSVCR90 + 0x22465 (exit + 0x10)
+	0x0044f443: quartus + 0x4f443 (Pjm_Uninit + 0x40203)
+	0x76ed8653: KERNEL32 + 0x18653 (BaseThreadInitThunk + 0x23)
+	0x77b24a46: ntdll + 0x64a46 (RtlGetAppContainerNamedObjectPath + 0x136)
+	0x77b24a16: ntdll + 0x64a16 (RtlGetAppContainerNamedObjectPath + 0x106)
+	0xffffffffffffffff:
+	</callstack>
+	<error>Access Violation at 0X77B0A225</error>
+	<date>Tue Oct 24 09:28:40 2017</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>Access Violation at 0X77B0A225
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+
