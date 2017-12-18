@@ -1,0 +1,32 @@
+|Home_automation
+GardenLight <= Automation:inst.GardenLight
+LightSensor => Automation:inst.LightSensor
+ExternalPresenceSensor => Automation:inst.ExternalPresenceSensor
+InteriorlPresenceSensor => Automation:inst.InteriorlPresenceSensor
+AlarmCenter => Automation:inst.AlarmCenter
+DoorOpen => Automation:inst.DoorOpen
+LowTemperature => Automation:inst.LowTemperature
+Garage/TerraceLight <= Automation:inst.Garage/TerraceLight
+InteriorLight <= Automation:inst.InteriorLight
+Alarm <= Automation:inst.Alarm
+AirConditionning <= Automation:inst.AirConditionning
+
+
+|Home_automation|Automation:inst
+GardenLight <= inst.DB_MAX_OUTPUT_PORT_TYPE
+LightSensor => inst.IN0
+Garage/TerraceLight <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+ExternalPresenceSensor => inst2.IN1
+InteriorLight <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+InteriorlPresenceSensor => inst3.IN0
+InteriorlPresenceSensor => inst3.IN1
+InteriorlPresenceSensor => inst9.IN1
+InteriorlPresenceSensor => inst5.IN1
+Alarm <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+AlarmCenter => inst4.IN0
+DoorOpen => inst9.IN0
+DoorOpen => inst1.IN0
+AirConditionning <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+LowTemperature => inst6.IN0
+
+

@@ -1,0 +1,326 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+//#pragma file_not_in_maxplusii_format
+(header "graphic" (version "1.3"))
+(pin
+	(input)
+	(rect 160 80 328 96)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "LightSensor" (rect 5 0 62 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12)(line_width 1))
+		(line (pt 92 4)(pt 117 4)(line_width 1))
+		(line (pt 121 8)(pt 168 8)(line_width 1))
+		(line (pt 92 12)(pt 92 4)(line_width 1))
+		(line (pt 117 4)(pt 121 8)(line_width 1))
+		(line (pt 117 12)(pt 121 8)(line_width 1))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 104 80 160 96))
+)
+(pin
+	(input)
+	(rect 160 96 368 112)
+	(text "INPUT" (rect 173 0 201 10)(font "Arial" (font_size 6)))
+	(text "ExternalPresenceSensor" (rect 5 0 125 12)(font "Arial" ))
+	(pt 208 8)
+	(drawing
+		(line (pt 132 12)(pt 157 12)(line_width 1))
+		(line (pt 132 4)(pt 157 4)(line_width 1))
+		(line (pt 161 8)(pt 208 8)(line_width 1))
+		(line (pt 132 12)(pt 132 4)(line_width 1))
+		(line (pt 157 4)(pt 161 8)(line_width 1))
+		(line (pt 157 12)(pt 161 8)(line_width 1))
+	)
+	(text "VCC" (rect 176 7 196 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 104 96 160 112))
+)
+(pin
+	(input)
+	(rect 160 112 368 128)
+	(text "INPUT" (rect 173 0 201 10)(font "Arial" (font_size 6)))
+	(text "InteriorlPresenceSensor" (rect 5 0 121 12)(font "Arial" ))
+	(pt 208 8)
+	(drawing
+		(line (pt 132 12)(pt 157 12)(line_width 1))
+		(line (pt 132 4)(pt 157 4)(line_width 1))
+		(line (pt 161 8)(pt 208 8)(line_width 1))
+		(line (pt 132 12)(pt 132 4)(line_width 1))
+		(line (pt 157 4)(pt 161 8)(line_width 1))
+		(line (pt 157 12)(pt 161 8)(line_width 1))
+	)
+	(text "VCC" (rect 176 7 196 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 104 112 160 128))
+)
+(pin
+	(input)
+	(rect 160 128 328 144)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "AlarmCenter" (rect 5 0 66 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12)(line_width 1))
+		(line (pt 92 4)(pt 117 4)(line_width 1))
+		(line (pt 121 8)(pt 168 8)(line_width 1))
+		(line (pt 92 12)(pt 92 4)(line_width 1))
+		(line (pt 117 4)(pt 121 8)(line_width 1))
+		(line (pt 117 12)(pt 121 8)(line_width 1))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 104 128 160 144))
+)
+(pin
+	(input)
+	(rect 160 144 328 160)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "DoorOpen" (rect 5 0 54 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12)(line_width 1))
+		(line (pt 92 4)(pt 117 4)(line_width 1))
+		(line (pt 121 8)(pt 168 8)(line_width 1))
+		(line (pt 92 12)(pt 92 4)(line_width 1))
+		(line (pt 117 4)(pt 121 8)(line_width 1))
+		(line (pt 117 12)(pt 121 8)(line_width 1))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 104 144 160 160))
+)
+(pin
+	(input)
+	(rect 160 160 328 176)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "LowTemperature" (rect 5 0 85 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12)(line_width 1))
+		(line (pt 92 4)(pt 117 4)(line_width 1))
+		(line (pt 121 8)(pt 168 8)(line_width 1))
+		(line (pt 92 12)(pt 92 4)(line_width 1))
+		(line (pt 117 4)(pt 121 8)(line_width 1))
+		(line (pt 117 12)(pt 121 8)(line_width 1))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 104 160 160 176))
+)
+(pin
+	(output)
+	(rect 696 80 872 96)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "GardenLight" (rect 90 0 149 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+	(annotation_block (location)(rect 872 80 928 96))
+)
+(pin
+	(output)
+	(rect 680 96 874 112)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "Garage/TerraceLight" (rect 90 0 189 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+	(annotation_block (location)(rect 874 96 930 112))
+)
+(pin
+	(output)
+	(rect 696 112 872 128)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "InteriorLight" (rect 90 0 147 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+	(annotation_block (location)(rect 872 112 928 128))
+)
+(pin
+	(output)
+	(rect 696 128 872 144)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "Alarm" (rect 90 0 118 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+	(annotation_block (location)(rect 872 128 928 144))
+)
+(pin
+	(output)
+	(rect 696 144 872 160)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "AirConditionning" (rect 90 0 169 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+	(annotation_block (location)(rect 872 144 928 160))
+)
+(symbol
+	(rect 368 56 680 216)
+	(text "Automation" (rect 5 0 68 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 144 25 156)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "LightSensor" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "LightSensor" (rect 21 27 89 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ExternalPresenceSensor" (rect 0 0 141 14)(font "Arial" (font_size 8)))
+		(text "ExternalPresenceSensor" (rect 21 43 162 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "InteriorlPresenceSensor" (rect 0 0 136 14)(font "Arial" (font_size 8)))
+		(text "InteriorlPresenceSensor" (rect 21 59 157 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "AlarmCenter" (rect 0 0 70 14)(font "Arial" (font_size 8)))
+		(text "AlarmCenter" (rect 21 75 91 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "DoorOpen" (rect 0 0 57 14)(font "Arial" (font_size 8)))
+		(text "DoorOpen" (rect 21 91 78 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "LowTemperature" (rect 0 0 97 14)(font "Arial" (font_size 8)))
+		(text "LowTemperature" (rect 21 107 118 121)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 312 32)
+		(output)
+		(text "GardenLight" (rect 0 0 69 14)(font "Arial" (font_size 8)))
+		(text "GardenLight" (rect 222 27 291 41)(font "Arial" (font_size 8)))
+		(line (pt 312 32)(pt 296 32)(line_width 1))
+	)
+	(port
+		(pt 312 48)
+		(output)
+		(text "Garage/TerraceLight" (rect 0 0 118 14)(font "Arial" (font_size 8)))
+		(text "Garage/TerraceLight" (rect 173 43 291 57)(font "Arial" (font_size 8)))
+		(line (pt 312 48)(pt 296 48)(line_width 1))
+	)
+	(port
+		(pt 312 64)
+		(output)
+		(text "InteriorLight" (rect 0 0 66 14)(font "Arial" (font_size 8)))
+		(text "InteriorLight" (rect 225 59 291 73)(font "Arial" (font_size 8)))
+		(line (pt 312 64)(pt 296 64)(line_width 1))
+	)
+	(port
+		(pt 312 80)
+		(output)
+		(text "Alarm" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "Alarm" (rect 258 75 291 89)(font "Arial" (font_size 8)))
+		(line (pt 312 80)(pt 296 80)(line_width 1))
+	)
+	(port
+		(pt 312 96)
+		(output)
+		(text "AirConditionning" (rect 0 0 92 14)(font "Arial" (font_size 8)))
+		(text "AirConditionning" (rect 199 91 291 105)(font "Arial" (font_size 8)))
+		(line (pt 312 96)(pt 296 96)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 296 144)(line_width 1))
+	)
+)
+(connector
+	(pt 680 120)
+	(pt 696 120)
+)
+(connector
+	(pt 680 136)
+	(pt 696 136)
+)
+(connector
+	(pt 680 152)
+	(pt 696 152)
+)
+(connector
+	(pt 328 168)
+	(pt 368 168)
+)
+(connector
+	(pt 328 152)
+	(pt 368 152)
+)
+(connector
+	(pt 328 136)
+	(pt 368 136)
+)
+(connector
+	(pt 328 88)
+	(pt 368 88)
+)
+(connector
+	(pt 680 88)
+	(pt 696 88)
+)
